@@ -1,0 +1,31 @@
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background: #62306d;
+    }
+    .container {
+        display: flex;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: #f7ec7d;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    .down {
+        transform: rotateX(180deg) translate(0px, -100px);
+    }
+</style>
+<div class="container">
+    <div class="box down"></div>
+    <div class="box"></div>
+    <div class="box down"></div>
+</div>
