@@ -1,0 +1,46 @@
+<!-- https://cssbattle.dev/play/5  -->
+<style class="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background: #0b2429;
+    }
+    .container {
+        position: relative;
+    }
+    .circle {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+    }
+    .right-circle {
+        background-color: #f3ac3c;
+        border-radius: 100%;
+        top: 30px;
+        right: 80px;
+    }
+    .drop {
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+    }
+    .mid-circle {
+        background-color: #998235;
+        top: 90px;
+        right: 140px;
+    }
+    .left-circle {
+        background-color: #f3ac3c;
+        top: 150px;
+        right: 200px;
+    }
+</style>
+<div class="container">
+    <div class="circle right-circle"></div>
+    <div class="circle drop mid-circle"></div>
+    <div class="circle drop left-circle"></div>
+    <div></div>
+</div>
