@@ -1,0 +1,70 @@
+<!-- https://cssbattle.dev/play/8  -->
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background: #6592cf;
+    }
+    .handle {
+        background-color: #060f55;
+        width: 20px;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .bowl {
+        background-color: #060f55;
+        width: 140px;
+        height: 100px;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+    .slot-wrapper {
+        width: 140px;
+        height: 100px;
+        position: absolute;
+        bottom: 150px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .slot {
+        width: 20px;
+        height: 110px;
+    }
+    .odd {
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        background-color: #060f55;
+    }
+    .even {
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        background-color: #6592cf;
+    }
+</style>
+
+<div class="handle"></div>
+<div class="bowl"></div>
+<div class="slot-wrapper">
+    <div class="slot odd"></div>
+    <div class="slot even"></div>
+    <div class="slot odd"></div>
+    <div class="slot even"></div>
+    <div class="slot odd"></div>
+    <div class="slot even"></div>
+    <div class="slot odd"></div>
+</div>
