@@ -1,0 +1,73 @@
+<style type="text/css">
+    :root {
+        --bossanova: #62306d;
+        --sweet_corn: #f7ec7d;
+        --hippie_pink: #aa445f;
+        --di_serria: #e38f66;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background: var(--bossanova);
+    }
+    .base {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        height: 100px;
+        background-color: var(--sweet_corn);
+    }
+    .middle-box {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100px;
+        height: 200px;
+        background-color: var(--sweet_corn);
+    }
+    .big-circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-circle {
+        background-color: var(--hippie_pink);
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+    }
+    .right-circle {
+        background-color: var(--hippie_pink);
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+    }
+    .small-circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background-color: var(--di_serria);
+    }
+    .middle-circle {
+        background-color: var(--di_serria);
+        position: absolute;
+        bottom: 150px;
+        left: 150px;
+    }
+</style>
+<div class="base"></div>
+<div class="middle-box"></div>
+<div class="big-circle left-circle"><div class="small-circle"></div></div>
+<div class="big-circle right-circle"><div class="small-circle"></div></div>
+<div class="big-circle middle-circle"><div class="small-circle" style="background-color: var(--hippie_pink);"></div></div>
